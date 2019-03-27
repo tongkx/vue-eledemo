@@ -25,11 +25,10 @@ export default {
     }
   },
   created () {
-    axios.get('/api/seller?id=' + this.seller.id).then((respsonse) => {
-      console.info(respsonse.data)
-      respsonse = respsonse.data
-      if (respsonse.errno === ERR_OK) {
-        this.seller = respsonse.data
+    axios.get('/api/seller?id=' + this.seller.id).then((response) => {
+      response = response.data
+      if (response.errno === ERR_OK) {
+        this.seller = response.data
       }
     })
   }

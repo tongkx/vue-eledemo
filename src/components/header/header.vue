@@ -136,7 +136,7 @@ export default {
     }
 
     .desc {
-      padding: 8px 0 6px;
+      padding: 5px 0 2px;
       font-size: 12px;
       line-height: 18px;
     }

@@ -22,8 +22,6 @@ export default {
     itemClasses () {
       var result = []
       let score = Math.floor(this.score * 2) / 2
-      console.info(this.score)
-      console.info(score)
       let hasDecimal = score % 1 !== 0
       let integer = Math.floor(score)
       for (let i = 0; i < integer; i++) {
