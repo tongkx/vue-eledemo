@@ -37,6 +37,7 @@ export default {
 
 <style lang="scss" rel="stylesheet/scss">
   @import "./common/sass/index.scss";
+  @import "./common/sass/icon.css";
   .tab{
     display: flex;
     .tab-item{
